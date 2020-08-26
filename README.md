@@ -1,5 +1,7 @@
 # Vehicle tracking using Unscented Kalman Filter
 
+<img src="media/ukf_highway.png" width="700" height="400" />
+
 The main program can be built and ran by doing the following from the project top directory.
 
 1. mkdir build
@@ -7,8 +9,6 @@ The main program can be built and ran by doing the following from the project to
 3. cmake ..
 4. make
 5. ./ukf_highway
-
-<img src="media/ukf_highway.png" width="700" height="400" />
 
 `main.cpp` is using `highway.h` to create a straight 3 lane highway environment with 3 traffic cars and the main ego car at the center. 
 The viewer scene is centered around the ego car and the coordinate system is relative to the ego car as well. The ego car is green while the 
